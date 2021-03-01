@@ -76,8 +76,8 @@ const Landing = (props) => {
               <Table data={financeData} />
             </div>
             <div className="col-lg-4">
-            <h6 className="zeta-header"><span className="font-weight-bold">{filteredTable == "Automotive" ? "Automotive" : "Finance"}</span> Store Visits</h6>
-              {filteredTable == "Automotive" ? (
+            <h6 className="zeta-header"><span className="font-weight-bold">{filteredTable === "Automotive" ? "Automotive" : "Finance"}</span> Store Visits</h6>
+              {filteredTable === "Automotive" ? (
                 <Table data={automotiveData} />
               ) : (
                 

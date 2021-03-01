@@ -11,7 +11,7 @@ const TableInformation = props => {
             let highestCustomerVisitRatio = Math.max(...information.map((el) => el.customer_visit_ratio));
             let actualPercentage = information.map((el) => el.customer_visit_ratio).map((elem) => {
                 let percent = (elem / highestCustomerVisitRatio) * 100
-                return percent == highestCustomerVisitRatio ? 100 : percent;
+                return percent === highestCustomerVisitRatio ? 100 : percent;
             })
 
             return information.sort((a,b) => b.customer_visit_ratio - a.customer_visit_ratio).map(function(elem, i) {

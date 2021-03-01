@@ -14,7 +14,7 @@ const TableRow = (props) => {
                     <div className="row">
                         <div className="col-xs-6 col-md-3">
                         <span style={{
-                            color: `${percentagecolor == "progress-green-bg" ? '#90a218' : (percentagecolor == "progress-orange-bg" ? '#f78d1f' : 'red')}`
+                            color: `${percentagecolor === "progress-green-bg" ? '#90a218' : (percentagecolor === "progress-orange-bg" ? '#f78d1f' : 'red')}`
                         }}>{percentageVal}</span>
                         </div>
                         <div className="col-xs-6 col-md-9">
