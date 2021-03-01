@@ -1,0 +1,66 @@
+{
+"outer_attribute": {
+		"brands": [
+		{
+			"brand_names": "brand6",
+			"Vertical": "Automotive",
+			"customer_visit_ratio": "25"
+		},
+		{
+			"brand_names": "brand11",
+			"Vertical": "Finance",
+			"customer_visit_ratio": "23"
+		},
+		{
+			"brand_names": "brand5",
+			"Vertical": "Automotive",
+			"customer_visit_ratio": "84"
+		},
+		{
+			"brand_names": "brand7",
+			"Vertical": "Finance",
+			"customer_visit_ratio": "44"
+		},
+		{
+			"brand_names": "brand12",
+			"Vertical": "Automotive",
+			"customer_visit_ratio": "63"
+		},
+		{
+			"brand_names": "brand4",
+			"Vertical": "Automotive",
+			"customer_visit_ratio": "72"
+		},
+		{
+			"brand_names": "brand10",
+			"Vertical": "Finance",
+			"customer_visit_ratio": "65"
+		},
+		{
+			"brand_names": "brand8",
+			"Vertical": "Finance",
+			"customer_visit_ratio": "25"
+		},
+		{
+			"brand_names": "brand3",
+			"Vertical": "Automotive",
+			"customer_visit_ratio": "55"
+		},
+		{
+			"brand_names": "brand1",
+			"Vertical": "Automotive",
+			"customer_visit_ratio": "42"
+		},
+		{
+			"brand_names": "brand9",
+			"Vertical": "Finance",
+			"customer_visit_ratio": "92"
+		},
+		{
+			"brand_names": "brand2",
+			"Vertical": "Finance",
+			"customer_visit_ratio": "65"
+		}
+		]
+ }
+}
