@@ -6,7 +6,7 @@ import data from "../common/test.json";
 const Landing = (props) => {
   const [automotiveData, setAutomotiveData] = useState([]);
   const [financeData, setFinanceData] = useState([]);
-  const [filteredTable, setFilteredTable] = useState("Automotive");
+  const [filteredTable, setFilteredTable] = useState("");
 
   useEffect(() => {
     console.log(data);
@@ -19,6 +19,7 @@ const Landing = (props) => {
 
     setAutomotiveData(automotiveData);
     setFinanceData(financeData);
+    setFilteredTable("Automotive")
     console.log(automotiveData, financeData);
   }, []);
 
