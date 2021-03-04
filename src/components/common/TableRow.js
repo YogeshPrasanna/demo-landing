@@ -8,8 +8,6 @@ const TableRow = (props) => {
         return (
             <tr>
                 <td>{visitsData[0].brand_names}</td>
-                {/* <td>{percentages}</td> */}
-
                 <td>
                     <div className="row">
                         <div className="col-xs-6 col-md-3">

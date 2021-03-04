@@ -9,6 +9,7 @@ const TableInformation = props => {
         if (information.length) {
             
             let highestCustomerVisitRatio = Math.max(...information.map((el) => el.customer_visit_ratio));
+            console.log("highestCustomerVisitRatio",highestCustomerVisitRatio )
             let actualPercentage = information.map((el) => el.customer_visit_ratio).map((elem) => {
                 let percent = (elem / highestCustomerVisitRatio) * 100
                 return percent === highestCustomerVisitRatio ? 100 : percent;
@@ -17,6 +18,8 @@ const TableInformation = props => {
             return information.sort((a,b) => b.customer_visit_ratio - a.customer_visit_ratio).map(function(elem, i) {
                 let PercentageColor ="bg-success"
                 let PercentVal = "High"
+
+                console.log(`actualPercentage ${elem.brand_names}`, actualPercentage[i])
 
                 if(actualPercentage[i] > 75) {
                     PercentageColor = "progress-green-bg"
