@@ -12,10 +12,10 @@ const Landing = (props) => {
     console.log(data);
     let automotiveData = data.outer_attribute.brands.filter(
       (el) => el.Vertical === "Automotive"
-    );
+    ).sort((a,b) => b.customer_visit_ratio - a.customer_visit_ratio);
     let financeData = data.outer_attribute.brands.filter(
       (el) => el.Vertical === "Finance"
-    );
+    ).sort((a,b) => b.customer_visit_ratio - a.customer_visit_ratio);
 
     setAutomotiveData(automotiveData);
     setFinanceData(financeData);

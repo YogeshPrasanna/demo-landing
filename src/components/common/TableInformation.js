@@ -15,11 +15,11 @@ const TableInformation = props => {
                 return percent === highestCustomerVisitRatio ? 100 : percent;
             })
 
-            return information.sort((a,b) => b.customer_visit_ratio - a.customer_visit_ratio).map(function(elem, i) {
+            return information.map(function(elem, i) {
                 let PercentageColor ="bg-success"
                 let PercentVal = "High"
 
-                console.log(`actualPercentage ${elem.brand_names}`, actualPercentage[i])
+                console.log(`actualPercentage ${elem.brand_names}`, actualPercentage[i], elem.customer_visit_ratio)
 
                 if(actualPercentage[i] > 75) {
                     PercentageColor = "progress-green-bg"
